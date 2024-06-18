@@ -2,10 +2,11 @@
 //  HomeLinkTests.swift
 //  HomeLinkTests
 //
-//  Created by Joshua Figueroa on 6/18/24.
+//  Created by Joshua Figueroa on 6/19/24.
 //
 
 import XCTest
+@testable import HomeLink
 
 final class HomeLinkTests: XCTestCase {
 
@@ -27,7 +28,7 @@ final class HomeLinkTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        measure {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }

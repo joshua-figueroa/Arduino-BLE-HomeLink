@@ -7,62 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BFCC80282C20D2F3009C14F2 /* HomeLinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCC80272C20D2F3009C14F2 /* HomeLinkApp.swift */; };
-		BFCC802A2C20D2F3009C14F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCC80292C20D2F3009C14F2 /* ContentView.swift */; };
-		BFCC802C2C20D2F5009C14F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCC802B2C20D2F5009C14F2 /* Assets.xcassets */; };
-		BFCC80302C20D2F5009C14F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCC802F2C20D2F5009C14F2 /* Preview Assets.xcassets */; };
-		BFCC803A2C20D2F5009C14F2 /* HomeLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCC80392C20D2F5009C14F2 /* HomeLinkTests.swift */; };
-		BFCC80442C20D2F5009C14F2 /* HomeLinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCC80432C20D2F5009C14F2 /* HomeLinkUITests.swift */; };
-		BFCC80462C20D2F5009C14F2 /* HomeLinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCC80452C20D2F5009C14F2 /* HomeLinkUITestsLaunchTests.swift */; };
+		BF1B00272C220AFE0035A717 /* HomeLinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B00262C220AFE0035A717 /* HomeLinkApp.swift */; };
+		BF1B00292C220AFE0035A717 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B00282C220AFE0035A717 /* ContentView.swift */; };
+		BF1B002B2C220AFF0035A717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1B002A2C220AFF0035A717 /* Assets.xcassets */; };
+		BF1B002E2C220AFF0035A717 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1B002D2C220AFF0035A717 /* Preview Assets.xcassets */; };
+		BF1B00382C220AFF0035A717 /* HomeLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B00372C220AFF0035A717 /* HomeLinkTests.swift */; };
+		BF1B00422C220AFF0035A717 /* HomeLinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B00412C220AFF0035A717 /* HomeLinkUITests.swift */; };
+		BF1B00442C220AFF0035A717 /* HomeLinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B00432C220AFF0035A717 /* HomeLinkUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BFCC80362C20D2F5009C14F2 /* PBXContainerItemProxy */ = {
+		BF1B00342C220AFF0035A717 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BFCC801C2C20D2F3009C14F2 /* Project object */;
+			containerPortal = BF1B001B2C220AFE0035A717 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BFCC80232C20D2F3009C14F2;
+			remoteGlobalIDString = BF1B00222C220AFE0035A717;
 			remoteInfo = HomeLink;
 		};
-		BFCC80402C20D2F5009C14F2 /* PBXContainerItemProxy */ = {
+		BF1B003E2C220AFF0035A717 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BFCC801C2C20D2F3009C14F2 /* Project object */;
+			containerPortal = BF1B001B2C220AFE0035A717 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BFCC80232C20D2F3009C14F2;
+			remoteGlobalIDString = BF1B00222C220AFE0035A717;
 			remoteInfo = HomeLink;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BFCC80242C20D2F3009C14F2 /* HomeLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFCC80272C20D2F3009C14F2 /* HomeLinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLinkApp.swift; sourceTree = "<group>"; };
-		BFCC80292C20D2F3009C14F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		BFCC802B2C20D2F5009C14F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BFCC802D2C20D2F5009C14F2 /* HomeLink.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HomeLink.entitlements; sourceTree = "<group>"; };
-		BFCC802F2C20D2F5009C14F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BFCC80352C20D2F5009C14F2 /* HomeLinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeLinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFCC80392C20D2F5009C14F2 /* HomeLinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLinkTests.swift; sourceTree = "<group>"; };
-		BFCC803F2C20D2F5009C14F2 /* HomeLinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeLinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFCC80432C20D2F5009C14F2 /* HomeLinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLinkUITests.swift; sourceTree = "<group>"; };
-		BFCC80452C20D2F5009C14F2 /* HomeLinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF1B00232C220AFE0035A717 /* HomeLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1B00262C220AFE0035A717 /* HomeLinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLinkApp.swift; sourceTree = "<group>"; };
+		BF1B00282C220AFE0035A717 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF1B002A2C220AFF0035A717 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF1B002D2C220AFF0035A717 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF1B00332C220AFF0035A717 /* HomeLinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeLinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1B00372C220AFF0035A717 /* HomeLinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLinkTests.swift; sourceTree = "<group>"; };
+		BF1B003D2C220AFF0035A717 /* HomeLinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeLinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1B00412C220AFF0035A717 /* HomeLinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLinkUITests.swift; sourceTree = "<group>"; };
+		BF1B00432C220AFF0035A717 /* HomeLinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BFCC80212C20D2F3009C14F2 /* Frameworks */ = {
+		BF1B00202C220AFE0035A717 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BFCC80322C20D2F5009C14F2 /* Frameworks */ = {
+		BF1B00302C220AFF0035A717 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BFCC803C2C20D2F5009C14F2 /* Frameworks */ = {
+		BF1B003A2C220AFF0035A717 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,59 +71,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BFCC801B2C20D2F3009C14F2 = {
+		BF1B001A2C220AFE0035A717 = {
 			isa = PBXGroup;
 			children = (
-				BFCC80262C20D2F3009C14F2 /* HomeLink */,
-				BFCC80382C20D2F5009C14F2 /* HomeLinkTests */,
-				BFCC80422C20D2F5009C14F2 /* HomeLinkUITests */,
-				BFCC80252C20D2F3009C14F2 /* Products */,
+				BF1B00252C220AFE0035A717 /* HomeLink */,
+				BF1B00362C220AFF0035A717 /* HomeLinkTests */,
+				BF1B00402C220AFF0035A717 /* HomeLinkUITests */,
+				BF1B00242C220AFE0035A717 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BFCC80252C20D2F3009C14F2 /* Products */ = {
+		BF1B00242C220AFE0035A717 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BFCC80242C20D2F3009C14F2 /* HomeLink.app */,
-				BFCC80352C20D2F5009C14F2 /* HomeLinkTests.xctest */,
-				BFCC803F2C20D2F5009C14F2 /* HomeLinkUITests.xctest */,
+				BF1B00232C220AFE0035A717 /* HomeLink.app */,
+				BF1B00332C220AFF0035A717 /* HomeLinkTests.xctest */,
+				BF1B003D2C220AFF0035A717 /* HomeLinkUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BFCC80262C20D2F3009C14F2 /* HomeLink */ = {
+		BF1B00252C220AFE0035A717 /* HomeLink */ = {
 			isa = PBXGroup;
 			children = (
-				BFCC80272C20D2F3009C14F2 /* HomeLinkApp.swift */,
-				BFCC80292C20D2F3009C14F2 /* ContentView.swift */,
-				BFCC802B2C20D2F5009C14F2 /* Assets.xcassets */,
-				BFCC802D2C20D2F5009C14F2 /* HomeLink.entitlements */,
-				BFCC802E2C20D2F5009C14F2 /* Preview Content */,
+				BF1B00262C220AFE0035A717 /* HomeLinkApp.swift */,
+				BF1B00282C220AFE0035A717 /* ContentView.swift */,
+				BF1B002A2C220AFF0035A717 /* Assets.xcassets */,
+				BF1B002C2C220AFF0035A717 /* Preview Content */,
 			);
 			path = HomeLink;
 			sourceTree = "<group>";
 		};
-		BFCC802E2C20D2F5009C14F2 /* Preview Content */ = {
+		BF1B002C2C220AFF0035A717 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				BFCC802F2C20D2F5009C14F2 /* Preview Assets.xcassets */,
+				BF1B002D2C220AFF0035A717 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		BFCC80382C20D2F5009C14F2 /* HomeLinkTests */ = {
+		BF1B00362C220AFF0035A717 /* HomeLinkTests */ = {
 			isa = PBXGroup;
 			children = (
-				BFCC80392C20D2F5009C14F2 /* HomeLinkTests.swift */,
+				BF1B00372C220AFF0035A717 /* HomeLinkTests.swift */,
 			);
 			path = HomeLinkTests;
 			sourceTree = "<group>";
 		};
-		BFCC80422C20D2F5009C14F2 /* HomeLinkUITests */ = {
+		BF1B00402C220AFF0035A717 /* HomeLinkUITests */ = {
 			isa = PBXGroup;
 			children = (
-				BFCC80432C20D2F5009C14F2 /* HomeLinkUITests.swift */,
-				BFCC80452C20D2F5009C14F2 /* HomeLinkUITestsLaunchTests.swift */,
+				BF1B00412C220AFF0035A717 /* HomeLinkUITests.swift */,
+				BF1B00432C220AFF0035A717 /* HomeLinkUITestsLaunchTests.swift */,
 			);
 			path = HomeLinkUITests;
 			sourceTree = "<group>";
@@ -132,13 +130,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BFCC80232C20D2F3009C14F2 /* HomeLink */ = {
+		BF1B00222C220AFE0035A717 /* HomeLink */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFCC80492C20D2F5009C14F2 /* Build configuration list for PBXNativeTarget "HomeLink" */;
+			buildConfigurationList = BF1B00472C220AFF0035A717 /* Build configuration list for PBXNativeTarget "HomeLink" */;
 			buildPhases = (
-				BFCC80202C20D2F3009C14F2 /* Sources */,
-				BFCC80212C20D2F3009C14F2 /* Frameworks */,
-				BFCC80222C20D2F3009C14F2 /* Resources */,
+				BF1B001F2C220AFE0035A717 /* Sources */,
+				BF1B00202C220AFE0035A717 /* Frameworks */,
+				BF1B00212C220AFE0035A717 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -146,69 +144,69 @@
 			);
 			name = HomeLink;
 			productName = HomeLink;
-			productReference = BFCC80242C20D2F3009C14F2 /* HomeLink.app */;
+			productReference = BF1B00232C220AFE0035A717 /* HomeLink.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BFCC80342C20D2F5009C14F2 /* HomeLinkTests */ = {
+		BF1B00322C220AFF0035A717 /* HomeLinkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFCC804C2C20D2F5009C14F2 /* Build configuration list for PBXNativeTarget "HomeLinkTests" */;
+			buildConfigurationList = BF1B004A2C220AFF0035A717 /* Build configuration list for PBXNativeTarget "HomeLinkTests" */;
 			buildPhases = (
-				BFCC80312C20D2F5009C14F2 /* Sources */,
-				BFCC80322C20D2F5009C14F2 /* Frameworks */,
-				BFCC80332C20D2F5009C14F2 /* Resources */,
+				BF1B002F2C220AFF0035A717 /* Sources */,
+				BF1B00302C220AFF0035A717 /* Frameworks */,
+				BF1B00312C220AFF0035A717 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BFCC80372C20D2F5009C14F2 /* PBXTargetDependency */,
+				BF1B00352C220AFF0035A717 /* PBXTargetDependency */,
 			);
 			name = HomeLinkTests;
 			productName = HomeLinkTests;
-			productReference = BFCC80352C20D2F5009C14F2 /* HomeLinkTests.xctest */;
+			productReference = BF1B00332C220AFF0035A717 /* HomeLinkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BFCC803E2C20D2F5009C14F2 /* HomeLinkUITests */ = {
+		BF1B003C2C220AFF0035A717 /* HomeLinkUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFCC804F2C20D2F5009C14F2 /* Build configuration list for PBXNativeTarget "HomeLinkUITests" */;
+			buildConfigurationList = BF1B004D2C220AFF0035A717 /* Build configuration list for PBXNativeTarget "HomeLinkUITests" */;
 			buildPhases = (
-				BFCC803B2C20D2F5009C14F2 /* Sources */,
-				BFCC803C2C20D2F5009C14F2 /* Frameworks */,
-				BFCC803D2C20D2F5009C14F2 /* Resources */,
+				BF1B00392C220AFF0035A717 /* Sources */,
+				BF1B003A2C220AFF0035A717 /* Frameworks */,
+				BF1B003B2C220AFF0035A717 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BFCC80412C20D2F5009C14F2 /* PBXTargetDependency */,
+				BF1B003F2C220AFF0035A717 /* PBXTargetDependency */,
 			);
 			name = HomeLinkUITests;
 			productName = HomeLinkUITests;
-			productReference = BFCC803F2C20D2F5009C14F2 /* HomeLinkUITests.xctest */;
+			productReference = BF1B003D2C220AFF0035A717 /* HomeLinkUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BFCC801C2C20D2F3009C14F2 /* Project object */ = {
+		BF1B001B2C220AFE0035A717 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					BFCC80232C20D2F3009C14F2 = {
+					BF1B00222C220AFE0035A717 = {
 						CreatedOnToolsVersion = 15.4;
 					};
-					BFCC80342C20D2F5009C14F2 = {
+					BF1B00322C220AFF0035A717 = {
 						CreatedOnToolsVersion = 15.4;
-						TestTargetID = BFCC80232C20D2F3009C14F2;
+						TestTargetID = BF1B00222C220AFE0035A717;
 					};
-					BFCC803E2C20D2F5009C14F2 = {
+					BF1B003C2C220AFF0035A717 = {
 						CreatedOnToolsVersion = 15.4;
-						TestTargetID = BFCC80232C20D2F3009C14F2;
+						TestTargetID = BF1B00222C220AFE0035A717;
 					};
 				};
 			};
-			buildConfigurationList = BFCC801F2C20D2F3009C14F2 /* Build configuration list for PBXProject "HomeLink" */;
+			buildConfigurationList = BF1B001E2C220AFE0035A717 /* Build configuration list for PBXProject "HomeLink" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,36 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = BFCC801B2C20D2F3009C14F2;
-			productRefGroup = BFCC80252C20D2F3009C14F2 /* Products */;
+			mainGroup = BF1B001A2C220AFE0035A717;
+			productRefGroup = BF1B00242C220AFE0035A717 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFCC80232C20D2F3009C14F2 /* HomeLink */,
-				BFCC80342C20D2F5009C14F2 /* HomeLinkTests */,
-				BFCC803E2C20D2F5009C14F2 /* HomeLinkUITests */,
+				BF1B00222C220AFE0035A717 /* HomeLink */,
+				BF1B00322C220AFF0035A717 /* HomeLinkTests */,
+				BF1B003C2C220AFF0035A717 /* HomeLinkUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BFCC80222C20D2F3009C14F2 /* Resources */ = {
+		BF1B00212C220AFE0035A717 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFCC80302C20D2F5009C14F2 /* Preview Assets.xcassets in Resources */,
-				BFCC802C2C20D2F5009C14F2 /* Assets.xcassets in Resources */,
+				BF1B002E2C220AFF0035A717 /* Preview Assets.xcassets in Resources */,
+				BF1B002B2C220AFF0035A717 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BFCC80332C20D2F5009C14F2 /* Resources */ = {
+		BF1B00312C220AFF0035A717 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BFCC803D2C20D2F5009C14F2 /* Resources */ = {
+		BF1B003B2C220AFF0035A717 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,49 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BFCC80202C20D2F3009C14F2 /* Sources */ = {
+		BF1B001F2C220AFE0035A717 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFCC802A2C20D2F3009C14F2 /* ContentView.swift in Sources */,
-				BFCC80282C20D2F3009C14F2 /* HomeLinkApp.swift in Sources */,
+				BF1B00292C220AFE0035A717 /* ContentView.swift in Sources */,
+				BF1B00272C220AFE0035A717 /* HomeLinkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BFCC80312C20D2F5009C14F2 /* Sources */ = {
+		BF1B002F2C220AFF0035A717 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFCC803A2C20D2F5009C14F2 /* HomeLinkTests.swift in Sources */,
+				BF1B00382C220AFF0035A717 /* HomeLinkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BFCC803B2C20D2F5009C14F2 /* Sources */ = {
+		BF1B00392C220AFF0035A717 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFCC80462C20D2F5009C14F2 /* HomeLinkUITestsLaunchTests.swift in Sources */,
-				BFCC80442C20D2F5009C14F2 /* HomeLinkUITests.swift in Sources */,
+				BF1B00442C220AFF0035A717 /* HomeLinkUITestsLaunchTests.swift in Sources */,
+				BF1B00422C220AFF0035A717 /* HomeLinkUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BFCC80372C20D2F5009C14F2 /* PBXTargetDependency */ = {
+		BF1B00352C220AFF0035A717 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BFCC80232C20D2F3009C14F2 /* HomeLink */;
-			targetProxy = BFCC80362C20D2F5009C14F2 /* PBXContainerItemProxy */;
+			target = BF1B00222C220AFE0035A717 /* HomeLink */;
+			targetProxy = BF1B00342C220AFF0035A717 /* PBXContainerItemProxy */;
 		};
-		BFCC80412C20D2F5009C14F2 /* PBXTargetDependency */ = {
+		BF1B003F2C220AFF0035A717 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BFCC80232C20D2F3009C14F2 /* HomeLink */;
-			targetProxy = BFCC80402C20D2F5009C14F2 /* PBXContainerItemProxy */;
+			target = BF1B00222C220AFE0035A717 /* HomeLink */;
+			targetProxy = BF1B003E2C220AFF0035A717 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		BFCC80472C20D2F5009C14F2 /* Debug */ = {
+		BF1B00452C220AFF0035A717 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -349,16 +347,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		BFCC80482C20D2F5009C14F2 /* Release */ = {
+		BF1B00462C220AFF0035A717 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -404,90 +404,77 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		BFCC804A2C20D2F5009C14F2 /* Debug */ = {
+		BF1B00482C220AFF0035A717 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = HomeLink/HomeLink.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HomeLink/Preview Content\"";
 				DEVELOPMENT_TEAM = 4QN838772C;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.joshuafigueroa.HomeLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		BFCC804B2C20D2F5009C14F2 /* Release */ = {
+		BF1B00492C220AFF0035A717 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = HomeLink/HomeLink.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HomeLink/Preview Content\"";
 				DEVELOPMENT_TEAM = 4QN838772C;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.joshuafigueroa.HomeLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		BFCC804D2C20D2F5009C14F2 /* Debug */ = {
+		BF1B004B2C220AFF0035A717 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -497,12 +484,9 @@
 				DEVELOPMENT_TEAM = 4QN838772C;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.joshuafigueroa.HomeLinkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -510,7 +494,7 @@
 			};
 			name = Debug;
 		};
-		BFCC804E2C20D2F5009C14F2 /* Release */ = {
+		BF1B004C2C220AFF0035A717 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -520,12 +504,9 @@
 				DEVELOPMENT_TEAM = 4QN838772C;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.joshuafigueroa.HomeLinkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -533,7 +514,7 @@
 			};
 			name = Release;
 		};
-		BFCC80502C20D2F5009C14F2 /* Debug */ = {
+		BF1B004E2C220AFF0035A717 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -541,13 +522,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4QN838772C;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.joshuafigueroa.HomeLinkUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -555,7 +532,7 @@
 			};
 			name = Debug;
 		};
-		BFCC80512C20D2F5009C14F2 /* Release */ = {
+		BF1B004F2C220AFF0035A717 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -563,13 +540,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4QN838772C;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.joshuafigueroa.HomeLinkUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -580,43 +553,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BFCC801F2C20D2F3009C14F2 /* Build configuration list for PBXProject "HomeLink" */ = {
+		BF1B001E2C220AFE0035A717 /* Build configuration list for PBXProject "HomeLink" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFCC80472C20D2F5009C14F2 /* Debug */,
-				BFCC80482C20D2F5009C14F2 /* Release */,
+				BF1B00452C220AFF0035A717 /* Debug */,
+				BF1B00462C220AFF0035A717 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFCC80492C20D2F5009C14F2 /* Build configuration list for PBXNativeTarget "HomeLink" */ = {
+		BF1B00472C220AFF0035A717 /* Build configuration list for PBXNativeTarget "HomeLink" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFCC804A2C20D2F5009C14F2 /* Debug */,
-				BFCC804B2C20D2F5009C14F2 /* Release */,
+				BF1B00482C220AFF0035A717 /* Debug */,
+				BF1B00492C220AFF0035A717 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFCC804C2C20D2F5009C14F2 /* Build configuration list for PBXNativeTarget "HomeLinkTests" */ = {
+		BF1B004A2C220AFF0035A717 /* Build configuration list for PBXNativeTarget "HomeLinkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFCC804D2C20D2F5009C14F2 /* Debug */,
-				BFCC804E2C20D2F5009C14F2 /* Release */,
+				BF1B004B2C220AFF0035A717 /* Debug */,
+				BF1B004C2C220AFF0035A717 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFCC804F2C20D2F5009C14F2 /* Build configuration list for PBXNativeTarget "HomeLinkUITests" */ = {
+		BF1B004D2C220AFF0035A717 /* Build configuration list for PBXNativeTarget "HomeLinkUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFCC80502C20D2F5009C14F2 /* Debug */,
-				BFCC80512C20D2F5009C14F2 /* Release */,
+				BF1B004E2C220AFF0035A717 /* Debug */,
+				BF1B004F2C220AFF0035A717 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BFCC801C2C20D2F3009C14F2 /* Project object */;
+	rootObject = BF1B001B2C220AFE0035A717 /* Project object */;
 }
