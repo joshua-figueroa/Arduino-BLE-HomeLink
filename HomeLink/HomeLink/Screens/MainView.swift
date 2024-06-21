@@ -35,6 +35,10 @@ struct MainView: View {
                         .font(.title)
                         .foregroundColor(.green)
                     
+                    Text("RSSI: \(bleManager.rssi) dBm")
+                        .font(.title)
+                        .padding(.top, 20)
+                    
                     Text("Temperature: \(bleManager.temperature) °C")
                         .font(.title)
                         .padding(.top, 20)

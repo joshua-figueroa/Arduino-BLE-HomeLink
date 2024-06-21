@@ -106,7 +106,6 @@
 				BF1B00282C220AFE0035A717 /* ContentView.swift */,
 				BF1B002A2C220AFF0035A717 /* Assets.xcassets */,
 				BF1B002C2C220AFF0035A717 /* Preview Content */,
-				BF8E0A652C222300001E9AF7 /* LoaderView.swift */,
 			);
 			path = HomeLink;
 			sourceTree = "<group>";
@@ -147,6 +146,7 @@
 		BF8E0A622C221CA8001E9AF7 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				BF8E0A652C222300001E9AF7 /* LoaderView.swift */,
 				BF8E0A632C221CBA001E9AF7 /* MainView.swift */,
 			);
 			path = Screens;

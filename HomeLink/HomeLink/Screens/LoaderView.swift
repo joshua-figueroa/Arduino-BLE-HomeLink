@@ -18,11 +18,9 @@ struct LoaderView: View {
                     .foregroundColor(.blue)
                     .scaleEffect(isAnimating ? 1 : 0.5)
                     .animation(
-                        Animation
-                            .easeInOut(duration: 0.6)
+                        Animation.easeInOut(duration: 0.6)
                             .repeatForever()
-                            .delay(Double(index) * 0.2)
-                        
+                            .delay(Double(index) * 0.2), value: isAnimating
                     )
             }
         }
