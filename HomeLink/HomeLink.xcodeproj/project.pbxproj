@@ -14,6 +14,9 @@
 		BF1B00382C220AFF0035A717 /* HomeLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B00372C220AFF0035A717 /* HomeLinkTests.swift */; };
 		BF1B00422C220AFF0035A717 /* HomeLinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B00412C220AFF0035A717 /* HomeLinkUITests.swift */; };
 		BF1B00442C220AFF0035A717 /* HomeLinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B00432C220AFF0035A717 /* HomeLinkUITestsLaunchTests.swift */; };
+		BF1B00522C220F450035A717 /* Bluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B00512C220F450035A717 /* Bluetooth.swift */; };
+		BF8E0A642C221CBA001E9AF7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8E0A632C221CBA001E9AF7 /* MainView.swift */; };
+		BF8E0A662C222300001E9AF7 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8E0A652C222300001E9AF7 /* LoaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		BF1B003D2C220AFF0035A717 /* HomeLinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeLinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1B00412C220AFF0035A717 /* HomeLinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLinkUITests.swift; sourceTree = "<group>"; };
 		BF1B00432C220AFF0035A717 /* HomeLinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF1B00512C220F450035A717 /* Bluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Bluetooth.swift; path = ../../../../Swift/Bluetooth.swift; sourceTree = "<group>"; };
+		BF8E0A632C221CBA001E9AF7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		BF8E0A652C222300001E9AF7 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +100,13 @@
 		BF1B00252C220AFE0035A717 /* HomeLink */ = {
 			isa = PBXGroup;
 			children = (
+				BF8E0A622C221CA8001E9AF7 /* Screens */,
+				BF1B00502C220F310035A717 /* Manager */,
 				BF1B00262C220AFE0035A717 /* HomeLinkApp.swift */,
 				BF1B00282C220AFE0035A717 /* ContentView.swift */,
 				BF1B002A2C220AFF0035A717 /* Assets.xcassets */,
 				BF1B002C2C220AFF0035A717 /* Preview Content */,
+				BF8E0A652C222300001E9AF7 /* LoaderView.swift */,
 			);
 			path = HomeLink;
 			sourceTree = "<group>";
@@ -125,6 +134,22 @@
 				BF1B00432C220AFF0035A717 /* HomeLinkUITestsLaunchTests.swift */,
 			);
 			path = HomeLinkUITests;
+			sourceTree = "<group>";
+		};
+		BF1B00502C220F310035A717 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				BF1B00512C220F450035A717 /* Bluetooth.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		BF8E0A622C221CA8001E9AF7 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				BF8E0A632C221CBA001E9AF7 /* MainView.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +283,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF1B00292C220AFE0035A717 /* ContentView.swift in Sources */,
+				BF8E0A642C221CBA001E9AF7 /* MainView.swift in Sources */,
+				BF8E0A662C222300001E9AF7 /* LoaderView.swift in Sources */,
+				BF1B00522C220F450035A717 /* Bluetooth.swift in Sources */,
 				BF1B00272C220AFE0035A717 /* HomeLinkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +453,10 @@
 				DEVELOPMENT_TEAM = 4QN838772C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Arduino HomeLink";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to connect to Arduino BLE devices";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This app uses Bluetooth to connect to Arduino BLE devices";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -455,6 +487,10 @@
 				DEVELOPMENT_TEAM = 4QN838772C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Arduino HomeLink";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to connect to Arduino BLE devices";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This app uses Bluetooth to connect to Arduino BLE devices";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
