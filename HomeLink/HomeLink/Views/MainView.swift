@@ -20,38 +20,47 @@ struct MainView: View {
             }
             .font(.largeTitle)
             .fontWeight(.bold)
-            .padding(.vertical, 20)
+            .padding(.top, 15)
             
-            Text("Welcome to BLE HomeLink! This app connects to your Arduino BLE device to provide seamless wireless communication.")
-                .font(.title2)
-                .multilineTextAlignment(.center)
-                .padding([.leading, .trailing], 30)
-
-            Spacer()
+            if !bleManager.isConnected || !getStarted {
+                Text("Welcome to BLE HomeLink! This app connects to your Arduino BLE device to provide seamless wireless communication.")
+                    .font(.title2)
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 30)
+            }
             
             if bleManager.deviceState == .poweredOn {
+                Spacer()
+                
                 if bleManager.isConnected {
                     Text("Connected to ArduinoLink")
                         .font(.title)
                         .foregroundColor(.green)
                     
-                    Text("RSSI: \(bleManager.rssi) dBm")
-                        .font(.title)
-                        .padding(.top, 20)
+                    VStack(spacing: 20) {
+                        HStack(spacing: 20) {
+                            let temp = bleManager.temperature
+                            let humid = bleManager.humidity
+                            
+                            CardView(image: "thermometer", title: "Temperature", content: "\(temp.data)°C", imageColor: .red, loading: temp.fetching)
+                            
+                            CardView(image: "humidity.fill", title: "Humidity", content: "\(humid.data)%", imageColor: .blue, loading: humid.fetching)
+                        }
+                        
+                        HStack(spacing: 20) {
+                            let air = bleManager.airQuality
+                            
+                            CardView(image: "leaf.fill", title: "Air Quality", content: "\(air.data) AQI", imageColor: .green, loading: air.fetching)
+                        }
+                    }
                     
-                    Text("Temperature: \(bleManager.temperature) °C")
-                        .font(.title)
-                        .padding(.top, 20)
-                    
-                    Text("Humidity: \(bleManager.humidity) %")
-                        .font(.title)
-                        .padding(.top, 20)
+                    Spacer()
+                    SignalStrengthView(signalStrength: bleManager.signalStrength)
                 } else {
                     LoaderView()
+                    Spacer()
                 }
             }
-            
-            Spacer()
             
             if !getStarted {
                 Button(action: {
