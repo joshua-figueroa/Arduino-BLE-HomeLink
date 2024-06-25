@@ -50,7 +50,7 @@ struct MainView: View {
                         HStack(spacing: 20) {
                             let air = bleManager.airQuality
                             
-                            CardView(image: "leaf.fill", title: "Air Quality", content: "\(air.data) AQI", imageColor: .green, loading: air.fetching)
+                            CardView(image: "leaf.fill", title: "Air Quality", content: "\(Int(air.data)) AQI", imageColor: .green, loading: air.fetching)
                         }
                     }
                     

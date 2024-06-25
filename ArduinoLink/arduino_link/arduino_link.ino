@@ -1,23 +1,25 @@
-#include <DHT11.h>
+#include <DHT.h>
 #include <ArduinoBLE.h>
 #include <LiquidCrystal_I2C.h>
 #include <Wire.h>
 
-DHT11 dht11(4);
+#define DHTPIN 4  
+#define DHTTYPE DHT22
+DHT dht(DHTPIN, DHTTYPE);
 LiquidCrystal_I2C lcd(0x27, 20, 4);
 
 BLEService environmentalService("181A"); // Environmental Sensing Service UUID
-BLEIntCharacteristic tempCharacteristic("2A6E", BLERead | BLENotify); // Temperature characteristic UUID
-BLEIntCharacteristic humidityCharacteristic("2A6F", BLERead | BLENotify); // Humidity characteristic UUID
+BLEFloatCharacteristic tempCharacteristic("2A6E", BLERead | BLENotify); // Temperature characteristic UUID
+BLEFloatCharacteristic humidityCharacteristic("2A6F", BLERead | BLENotify); // Humidity characteristic UUID
 BLEIntCharacteristic airQualityCharacteristic("2BD3", BLERead | BLENotify); // Air Quality (Volatile Compounds) characteristic UUID
 
 String getAirQuality(int gasLevel) {
   if(gasLevel < 181) {
-    return "Good";
+    return "Good ";
   } else if (gasLevel >= 181 && gasLevel < 225) {
-    return "Poor";
+    return "Poor ";
   } else if (gasLevel >=225 && gasLevel < 300) {
-    return "Bad";
+    return "Bad  ";
   }
 
   return "Toxic";
@@ -37,6 +39,10 @@ void setup() {
     while (1);
   }
 
+  // Init DHT22
+  pinMode(DHTPIN, INPUT);
+  dht.begin();
+
   BLE.setLocalName("Arduino");
   BLE.setAdvertisedService(environmentalService);
 
@@ -46,8 +52,8 @@ void setup() {
   BLE.addService(environmentalService);
 
   // Set initial values
-  tempCharacteristic.writeValue(0);
-  humidityCharacteristic.writeValue(0);
+  tempCharacteristic.writeValue(0.0);
+  humidityCharacteristic.writeValue(0.0);
   airQualityCharacteristic.writeValue(0);
 
   BLE.advertise();
@@ -68,33 +74,36 @@ void loop() {
     lcd.print("Status: Connected   ");
     Serial.print("Connected to central: ");
     Serial.println(central.address());
-    int temperature = 0;
-    int humidity = 0;
+    float temperature = 0;
+    float humidity = 0;
+    int aqi = 0;
 
     while (central.connected()) {
       int airSensorValue = analogRead(0); 
-      int tempTemp = temperature;
-      int tempHumid = humidity;
-      int result = dht11.readTemperatureHumidity(tempTemp, tempHumid);
+      float tempTemp = temperature;
+      float tempHumid = humidity;
+    
+      tempHumid = dht.readHumidity();
+      tempTemp = dht.readTemperature();
 
       // Display temp on LCD
       lcd.setCursor(0, 2);
       lcd.print("Temp:");
       lcd.setCursor(6, 2);
-      lcd.print(tempTemp);
+      lcd.print(tempTemp, 1);
 
       // Display humidity on LCD
-      lcd.setCursor(10, 2);
-      lcd.print("Humid:");
-      lcd.setCursor(17, 2);
-      lcd.print(tempHumid);
-
-      // Display air quality
       lcd.setCursor(0, 3);
+      lcd.print("Humid:");
+      lcd.setCursor(7, 3);
+      lcd.print(tempHumid, 1);
+
+      // // Display air quality
+      lcd.setCursor(12, 2);
       lcd.print("AQI:");
-      lcd.setCursor(5, 3);
+      lcd.setCursor(17, 2);
       lcd.print(airSensorValue);
-      lcd.setCursor(10, 3);
+      lcd.setCursor(15, 3);
       lcd.print(getAirQuality(airSensorValue));
 
       Serial.print("Temperature:");
@@ -115,8 +124,11 @@ void loop() {
         humidity = tempHumid;
       }
 
-      // Always rewrite air quality
-      airQualityCharacteristic.writeValue(airSensorValue);
+      if (airSensorValue != aqi) {
+        // Only update AQI when needed
+        airQualityCharacteristic.writeValue(airSensorValue);
+        aqi = airSensorValue;
+      }
 
       delay(100);
     }

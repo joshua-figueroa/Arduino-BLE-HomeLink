@@ -9,10 +9,10 @@ import Foundation
 
 struct Sensor: Identifiable, Codable {
     let id: UUID
-    var data: Int
+    var data: Float
     var fetching: Bool
     
-    init(id: UUID = UUID(), data: Int = 0, fetching: Bool = true) {
+    init(id: UUID = UUID(), data: Float = 0, fetching: Bool = true) {
         self.id = id
         self.data = data
         self.fetching = fetching
@@ -22,7 +22,7 @@ struct Sensor: Identifiable, Codable {
         Sensor()
     }
     
-    mutating func updateSensorData(from data: Int) {
+    mutating func updateSensorData(from data: Float) {
         self.data = data
         self.fetching = false
     }
@@ -34,7 +34,7 @@ struct Sensor: Identifiable, Codable {
 }
 
 extension Sensor {
-    static var mockTempData = Sensor(data: 24, fetching: false)
-    static var mockHumidityData = Sensor(data: 69, fetching: false)
+    static var mockTempData = Sensor(data: 24.5, fetching: false)
+    static var mockHumidityData = Sensor(data: 69.8, fetching: false)
     static var mockAirQualityData = Sensor(data: 50, fetching: false)
 }
