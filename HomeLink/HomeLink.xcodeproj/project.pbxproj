@@ -17,6 +17,14 @@
 		BF1B00422C220AFF0035A717 /* HomeLinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B00412C220AFF0035A717 /* HomeLinkUITests.swift */; };
 		BF1B00442C220AFF0035A717 /* HomeLinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B00432C220AFF0035A717 /* HomeLinkUITestsLaunchTests.swift */; };
 		BF1B00522C220F450035A717 /* Bluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B00512C220F450035A717 /* Bluetooth.swift */; };
+		BF3050E52C2F6E3600E5AAC3 /* WatchHomeLinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3050E42C2F6E3600E5AAC3 /* WatchHomeLinkApp.swift */; };
+		BF3050E72C2F6E3600E5AAC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3050E62C2F6E3600E5AAC3 /* ContentView.swift */; };
+		BF3050E92C2F6E3700E5AAC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3050E82C2F6E3700E5AAC3 /* Assets.xcassets */; };
+		BF3050EC2C2F6E3700E5AAC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3050EB2C2F6E3700E5AAC3 /* Preview Assets.xcassets */; };
+		BF3050F62C2F6E3700E5AAC3 /* WatchHomeLink_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3050F52C2F6E3700E5AAC3 /* WatchHomeLink_Watch_AppTests.swift */; };
+		BF3051002C2F6E3700E5AAC3 /* WatchHomeLink_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3050FF2C2F6E3700E5AAC3 /* WatchHomeLink_Watch_AppUITests.swift */; };
+		BF3051022C2F6E3700E5AAC3 /* WatchHomeLink_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3051012C2F6E3700E5AAC3 /* WatchHomeLink_Watch_AppUITestsLaunchTests.swift */; };
+		BF3051052C2F6E3700E5AAC3 /* WatchHomeLink Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BF3050E22C2F6E3600E5AAC3 /* WatchHomeLink Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BF50D5A22C2DDE67003D006F /* LauncherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50D5A12C2DDE67003D006F /* LauncherView.swift */; };
 		BF50D5A42C2DDEF4003D006F /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50D5A32C2DDEF4003D006F /* DataView.swift */; };
 		BF8E0A642C221CBA001E9AF7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8E0A632C221CBA001E9AF7 /* MainView.swift */; };
@@ -39,7 +47,42 @@
 			remoteGlobalIDString = BF1B00222C220AFE0035A717;
 			remoteInfo = HomeLink;
 		};
+		BF3050F22C2F6E3700E5AAC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF1B001B2C220AFE0035A717 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF3050E12C2F6E3600E5AAC3;
+			remoteInfo = "WatchHomeLink Watch App";
+		};
+		BF3050FC2C2F6E3700E5AAC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF1B001B2C220AFE0035A717 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF3050E12C2F6E3600E5AAC3;
+			remoteInfo = "WatchHomeLink Watch App";
+		};
+		BF3051032C2F6E3700E5AAC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF1B001B2C220AFE0035A717 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF3050E12C2F6E3600E5AAC3;
+			remoteInfo = "WatchHomeLink Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF3051062C2F6E3700E5AAC3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BF3051052C2F6E3700E5AAC3 /* WatchHomeLink Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BF153FA82C277753006ADBCE /* Sensor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sensor.swift; sourceTree = "<group>"; };
@@ -55,6 +98,16 @@
 		BF1B00412C220AFF0035A717 /* HomeLinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLinkUITests.swift; sourceTree = "<group>"; };
 		BF1B00432C220AFF0035A717 /* HomeLinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BF1B00512C220F450035A717 /* Bluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Bluetooth.swift; path = ../../../../Swift/Bluetooth.swift; sourceTree = "<group>"; };
+		BF3050E22C2F6E3600E5AAC3 /* WatchHomeLink Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchHomeLink Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3050E42C2F6E3600E5AAC3 /* WatchHomeLinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchHomeLinkApp.swift; sourceTree = "<group>"; };
+		BF3050E62C2F6E3600E5AAC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF3050E82C2F6E3700E5AAC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF3050EB2C2F6E3700E5AAC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF3050F12C2F6E3700E5AAC3 /* WatchHomeLink Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchHomeLink Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3050F52C2F6E3700E5AAC3 /* WatchHomeLink_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchHomeLink_Watch_AppTests.swift; sourceTree = "<group>"; };
+		BF3050FB2C2F6E3700E5AAC3 /* WatchHomeLink Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchHomeLink Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3050FF2C2F6E3700E5AAC3 /* WatchHomeLink_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchHomeLink_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		BF3051012C2F6E3700E5AAC3 /* WatchHomeLink_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchHomeLink_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BF50D5A12C2DDE67003D006F /* LauncherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauncherView.swift; sourceTree = "<group>"; };
 		BF50D5A32C2DDEF4003D006F /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
 		BF8E0A632C221CBA001E9AF7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -84,6 +137,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BF3050DF2C2F6E3600E5AAC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3050EE2C2F6E3700E5AAC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3050F82C2F6E3700E5AAC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -101,6 +175,9 @@
 				BF1B00252C220AFE0035A717 /* HomeLink */,
 				BF1B00362C220AFF0035A717 /* HomeLinkTests */,
 				BF1B00402C220AFF0035A717 /* HomeLinkUITests */,
+				BF3050E32C2F6E3600E5AAC3 /* WatchHomeLink Watch App */,
+				BF3050F42C2F6E3700E5AAC3 /* WatchHomeLink Watch AppTests */,
+				BF3050FE2C2F6E3700E5AAC3 /* WatchHomeLink Watch AppUITests */,
 				BF1B00242C220AFE0035A717 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,6 +188,9 @@
 				BF1B00232C220AFE0035A717 /* HomeLink.app */,
 				BF1B00332C220AFF0035A717 /* HomeLinkTests.xctest */,
 				BF1B003D2C220AFF0035A717 /* HomeLinkUITests.xctest */,
+				BF3050E22C2F6E3600E5AAC3 /* WatchHomeLink Watch App.app */,
+				BF3050F12C2F6E3700E5AAC3 /* WatchHomeLink Watch AppTests.xctest */,
+				BF3050FB2C2F6E3700E5AAC3 /* WatchHomeLink Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,6 +242,42 @@
 			path = Manager;
 			sourceTree = "<group>";
 		};
+		BF3050E32C2F6E3600E5AAC3 /* WatchHomeLink Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				BF3050E42C2F6E3600E5AAC3 /* WatchHomeLinkApp.swift */,
+				BF3050E62C2F6E3600E5AAC3 /* ContentView.swift */,
+				BF3050E82C2F6E3700E5AAC3 /* Assets.xcassets */,
+				BF3050EA2C2F6E3700E5AAC3 /* Preview Content */,
+			);
+			path = "WatchHomeLink Watch App";
+			sourceTree = "<group>";
+		};
+		BF3050EA2C2F6E3700E5AAC3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF3050EB2C2F6E3700E5AAC3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF3050F42C2F6E3700E5AAC3 /* WatchHomeLink Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF3050F52C2F6E3700E5AAC3 /* WatchHomeLink_Watch_AppTests.swift */,
+			);
+			path = "WatchHomeLink Watch AppTests";
+			sourceTree = "<group>";
+		};
+		BF3050FE2C2F6E3700E5AAC3 /* WatchHomeLink Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF3050FF2C2F6E3700E5AAC3 /* WatchHomeLink_Watch_AppUITests.swift */,
+				BF3051012C2F6E3700E5AAC3 /* WatchHomeLink_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "WatchHomeLink Watch AppUITests";
+			sourceTree = "<group>";
+		};
 		BF8E0A672C276E70001E9AF7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,10 +301,12 @@
 				BF1B001F2C220AFE0035A717 /* Sources */,
 				BF1B00202C220AFE0035A717 /* Frameworks */,
 				BF1B00212C220AFE0035A717 /* Resources */,
+				BF3051062C2F6E3700E5AAC3 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BF3051042C2F6E3700E5AAC3 /* PBXTargetDependency */,
 			);
 			name = HomeLink;
 			productName = HomeLink;
@@ -231,6 +349,59 @@
 			productReference = BF1B003D2C220AFF0035A717 /* HomeLinkUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		BF3050E12C2F6E3600E5AAC3 /* WatchHomeLink Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF30510D2C2F6E3700E5AAC3 /* Build configuration list for PBXNativeTarget "WatchHomeLink Watch App" */;
+			buildPhases = (
+				BF3050DE2C2F6E3600E5AAC3 /* Sources */,
+				BF3050DF2C2F6E3600E5AAC3 /* Frameworks */,
+				BF3050E02C2F6E3600E5AAC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchHomeLink Watch App";
+			productName = "WatchHomeLink Watch App";
+			productReference = BF3050E22C2F6E3600E5AAC3 /* WatchHomeLink Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF3050F02C2F6E3700E5AAC3 /* WatchHomeLink Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF30510E2C2F6E3700E5AAC3 /* Build configuration list for PBXNativeTarget "WatchHomeLink Watch AppTests" */;
+			buildPhases = (
+				BF3050ED2C2F6E3700E5AAC3 /* Sources */,
+				BF3050EE2C2F6E3700E5AAC3 /* Frameworks */,
+				BF3050EF2C2F6E3700E5AAC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF3050F32C2F6E3700E5AAC3 /* PBXTargetDependency */,
+			);
+			name = "WatchHomeLink Watch AppTests";
+			productName = "WatchHomeLink Watch AppTests";
+			productReference = BF3050F12C2F6E3700E5AAC3 /* WatchHomeLink Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF3050FA2C2F6E3700E5AAC3 /* WatchHomeLink Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF30510F2C2F6E3700E5AAC3 /* Build configuration list for PBXNativeTarget "WatchHomeLink Watch AppUITests" */;
+			buildPhases = (
+				BF3050F72C2F6E3700E5AAC3 /* Sources */,
+				BF3050F82C2F6E3700E5AAC3 /* Frameworks */,
+				BF3050F92C2F6E3700E5AAC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF3050FD2C2F6E3700E5AAC3 /* PBXTargetDependency */,
+			);
+			name = "WatchHomeLink Watch AppUITests";
+			productName = "WatchHomeLink Watch AppUITests";
+			productReference = BF3050FB2C2F6E3700E5AAC3 /* WatchHomeLink Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -252,6 +423,17 @@
 						CreatedOnToolsVersion = 15.4;
 						TestTargetID = BF1B00222C220AFE0035A717;
 					};
+					BF3050E12C2F6E3600E5AAC3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BF3050F02C2F6E3700E5AAC3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BF3050E12C2F6E3600E5AAC3;
+					};
+					BF3050FA2C2F6E3700E5AAC3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BF3050E12C2F6E3600E5AAC3;
+					};
 				};
 			};
 			buildConfigurationList = BF1B001E2C220AFE0035A717 /* Build configuration list for PBXProject "HomeLink" */;
@@ -270,6 +452,9 @@
 				BF1B00222C220AFE0035A717 /* HomeLink */,
 				BF1B00322C220AFF0035A717 /* HomeLinkTests */,
 				BF1B003C2C220AFF0035A717 /* HomeLinkUITests */,
+				BF3050E12C2F6E3600E5AAC3 /* WatchHomeLink Watch App */,
+				BF3050F02C2F6E3700E5AAC3 /* WatchHomeLink Watch AppTests */,
+				BF3050FA2C2F6E3700E5AAC3 /* WatchHomeLink Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -292,6 +477,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BF1B003B2C220AFF0035A717 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3050E02C2F6E3600E5AAC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3050EC2C2F6E3700E5AAC3 /* Preview Assets.xcassets in Resources */,
+				BF3050E92C2F6E3700E5AAC3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3050EF2C2F6E3700E5AAC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3050F92C2F6E3700E5AAC3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -335,6 +543,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BF3050DE2C2F6E3600E5AAC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3050E72C2F6E3600E5AAC3 /* ContentView.swift in Sources */,
+				BF3050E52C2F6E3600E5AAC3 /* WatchHomeLinkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3050ED2C2F6E3700E5AAC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3050F62C2F6E3700E5AAC3 /* WatchHomeLink_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3050F72C2F6E3700E5AAC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3051002C2F6E3700E5AAC3 /* WatchHomeLink_Watch_AppUITests.swift in Sources */,
+				BF3051022C2F6E3700E5AAC3 /* WatchHomeLink_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -347,6 +581,21 @@
 			isa = PBXTargetDependency;
 			target = BF1B00222C220AFE0035A717 /* HomeLink */;
 			targetProxy = BF1B003E2C220AFF0035A717 /* PBXContainerItemProxy */;
+		};
+		BF3050F32C2F6E3700E5AAC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF3050E12C2F6E3600E5AAC3 /* WatchHomeLink Watch App */;
+			targetProxy = BF3050F22C2F6E3700E5AAC3 /* PBXContainerItemProxy */;
+		};
+		BF3050FD2C2F6E3700E5AAC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF3050E12C2F6E3600E5AAC3 /* WatchHomeLink Watch App */;
+			targetProxy = BF3050FC2C2F6E3700E5AAC3 /* PBXContainerItemProxy */;
+		};
+		BF3051042C2F6E3700E5AAC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF3050E12C2F6E3600E5AAC3 /* WatchHomeLink Watch App */;
+			targetProxy = BF3051032C2F6E3700E5AAC3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -473,6 +722,7 @@
 		BF1B00482C220AFF0035A717 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +757,7 @@
 		BF1B00492C220AFF0035A717 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -614,6 +865,148 @@
 			};
 			name = Release;
 		};
+		BF3051072C2F6E3700E5AAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchHomeLink Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4QN838772C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchHomeLink;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.joshuafigueroa.HomeLink;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuafigueroa.HomeLink.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		BF3051082C2F6E3700E5AAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchHomeLink Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4QN838772C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchHomeLink;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.joshuafigueroa.HomeLink;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuafigueroa.HomeLink.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		BF3051092C2F6E3700E5AAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4QN838772C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joshuafigueroa.WatchHomeLink-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchHomeLink Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WatchHomeLink Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		BF30510A2C2F6E3700E5AAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4QN838772C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joshuafigueroa.WatchHomeLink-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchHomeLink Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WatchHomeLink Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		BF30510B2C2F6E3700E5AAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4QN838772C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joshuafigueroa.WatchHomeLink-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WatchHomeLink Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		BF30510C2C2F6E3700E5AAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4QN838772C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joshuafigueroa.WatchHomeLink-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WatchHomeLink Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -649,6 +1042,33 @@
 			buildConfigurations = (
 				BF1B004E2C220AFF0035A717 /* Debug */,
 				BF1B004F2C220AFF0035A717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF30510D2C2F6E3700E5AAC3 /* Build configuration list for PBXNativeTarget "WatchHomeLink Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3051072C2F6E3700E5AAC3 /* Debug */,
+				BF3051082C2F6E3700E5AAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF30510E2C2F6E3700E5AAC3 /* Build configuration list for PBXNativeTarget "WatchHomeLink Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3051092C2F6E3700E5AAC3 /* Debug */,
+				BF30510A2C2F6E3700E5AAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF30510F2C2F6E3700E5AAC3 /* Build configuration list for PBXNativeTarget "WatchHomeLink Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF30510B2C2F6E3700E5AAC3 /* Debug */,
+				BF30510C2C2F6E3700E5AAC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
