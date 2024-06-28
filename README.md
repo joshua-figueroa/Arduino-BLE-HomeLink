@@ -44,7 +44,7 @@ To set up your Arduino for BLE communication, follow these steps:
      - `LiquidCrystal_I2C.h` for LCD
 
 3. **Connections:**
-   - Connect the DHT11/DHT22 sensor to the Arduino:
+   - Connect the DHT22 sensor to the Arduino:
      - VCC to 5V
      - GND to GND
      - Data pin to digital pin 4
