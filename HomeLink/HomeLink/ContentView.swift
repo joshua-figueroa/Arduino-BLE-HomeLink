@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("getStarted") var getStarted: Bool = false
     
     var body: some View {
-        MainView(bleManager: BLEManager())
+        MainView(getStarted: $getStarted, bleManager: BLEManager())
     }
 }
 

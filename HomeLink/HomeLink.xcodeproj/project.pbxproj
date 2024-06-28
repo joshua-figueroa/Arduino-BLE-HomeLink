@@ -17,6 +17,8 @@
 		BF1B00422C220AFF0035A717 /* HomeLinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B00412C220AFF0035A717 /* HomeLinkUITests.swift */; };
 		BF1B00442C220AFF0035A717 /* HomeLinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B00432C220AFF0035A717 /* HomeLinkUITestsLaunchTests.swift */; };
 		BF1B00522C220F450035A717 /* Bluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B00512C220F450035A717 /* Bluetooth.swift */; };
+		BF50D5A22C2DDE67003D006F /* LauncherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50D5A12C2DDE67003D006F /* LauncherView.swift */; };
+		BF50D5A42C2DDEF4003D006F /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50D5A32C2DDEF4003D006F /* DataView.swift */; };
 		BF8E0A642C221CBA001E9AF7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8E0A632C221CBA001E9AF7 /* MainView.swift */; };
 		BF8E0A662C222300001E9AF7 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8E0A652C222300001E9AF7 /* LoaderView.swift */; };
 		BF8E0A692C276E80001E9AF7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8E0A682C276E80001E9AF7 /* CardView.swift */; };
@@ -53,6 +55,8 @@
 		BF1B00412C220AFF0035A717 /* HomeLinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLinkUITests.swift; sourceTree = "<group>"; };
 		BF1B00432C220AFF0035A717 /* HomeLinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BF1B00512C220F450035A717 /* Bluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Bluetooth.swift; path = ../../../../Swift/Bluetooth.swift; sourceTree = "<group>"; };
+		BF50D5A12C2DDE67003D006F /* LauncherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauncherView.swift; sourceTree = "<group>"; };
+		BF50D5A32C2DDEF4003D006F /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
 		BF8E0A632C221CBA001E9AF7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		BF8E0A652C222300001E9AF7 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
 		BF8E0A682C276E80001E9AF7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -165,6 +169,8 @@
 				BF8E0A632C221CBA001E9AF7 /* MainView.swift */,
 				BF8E0A682C276E80001E9AF7 /* CardView.swift */,
 				BF153FAA2C279DA6006ADBCE /* SignalStrengthView.swift */,
+				BF50D5A12C2DDE67003D006F /* LauncherView.swift */,
+				BF50D5A32C2DDEF4003D006F /* DataView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -301,12 +307,14 @@
 			files = (
 				BF1B00292C220AFE0035A717 /* ContentView.swift in Sources */,
 				BF8E0A642C221CBA001E9AF7 /* MainView.swift in Sources */,
+				BF50D5A42C2DDEF4003D006F /* DataView.swift in Sources */,
 				BF8E0A662C222300001E9AF7 /* LoaderView.swift in Sources */,
 				BF153FAB2C279DA6006ADBCE /* SignalStrengthView.swift in Sources */,
 				BF1B00522C220F450035A717 /* Bluetooth.swift in Sources */,
 				BF8E0A692C276E80001E9AF7 /* CardView.swift in Sources */,
 				BF1B00272C220AFE0035A717 /* HomeLinkApp.swift in Sources */,
 				BF153FA92C277753006ADBCE /* Sensor.swift in Sources */,
+				BF50D5A22C2DDE67003D006F /* LauncherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
