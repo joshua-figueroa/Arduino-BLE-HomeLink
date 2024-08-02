@@ -11,7 +11,11 @@ struct ContentView: View {
     @AppStorage("getStarted") var getStarted: Bool = false
     
     var body: some View {
-        MainView(getStarted: $getStarted, bleManager: BLEManager())
+        #if targetEnvironment(simulator)
+            MainView(getStarted: $getStarted, bleManager: SimulatedBLEManager())
+        #else
+            MainView(getStarted: $getStarted, bleManager: BLEManager.shared)
+        #endif
     }
 }
 

@@ -41,6 +41,7 @@ struct LauncherView: View {
             
             Button(action: {
                 getStarted = true
+                WatchSessionManager.shared.checkPermission(getStarted: true)
                 bleManager.startScanning()
             }) {
                 Text("Get Started")
@@ -61,6 +62,9 @@ struct LauncherView: View {
             LinearGradient(gradient: Gradient(colors: [Color(UIColor.systemBackground), Color("Background")]), startPoint: .top, endPoint: .bottom)
         )
         .ignoresSafeArea(.container, edges: .all)
+        .onAppear(perform: {
+            WatchSessionManager.shared.checkConnection(isArduinoConnected: bleManager.isConnected)
+        })
     }
 }
 

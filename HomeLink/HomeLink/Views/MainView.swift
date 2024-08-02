@@ -13,11 +13,16 @@ struct MainView: View {
     @State private var showAlert = false
     
     var body: some View {
-        if getStarted {
-            DataView(bleManager: bleManager, getStarted: getStarted)
-        } else {
-            LauncherView(bleManager: bleManager, getStarted: $getStarted)
+        VStack {
+            if getStarted {
+                DataView(bleManager: bleManager, getStarted: getStarted)
+            } else {
+                LauncherView(bleManager: bleManager, getStarted: $getStarted)
+            }
         }
+        .onAppear(perform: {
+            WatchSessionManager.shared.activateSession(getStarted)
+        })
     }
 }
 

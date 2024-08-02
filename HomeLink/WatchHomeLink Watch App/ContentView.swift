@@ -8,17 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var watchManager = PhoneSessionManager.shared
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            if watchManager.getStarted && watchManager.sessionActive {
+                DataView(watchManager: watchManager)
+            } else {
+                LauncherView()
+            }
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+#Preview("Launcher View") {
+    ContentView(watchManager: MockWatchSession(isConnected: true, getStarted: false))
+}
+
+#Preview("Data View") {
+    ContentView(watchManager: MockWatchSession(isConnected: true))
 }

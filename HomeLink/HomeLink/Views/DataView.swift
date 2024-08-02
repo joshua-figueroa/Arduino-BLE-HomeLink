@@ -27,7 +27,7 @@ struct DataView: View {
                 
                 Spacer()
                 
-                if bleManager.deviceState == .poweredOn && getStarted {
+                if bleManager.deviceState == .poweredOn {
                     if bleManager.isConnected {
                         let cardWidth = geometry.size.width / 2 - 60
                         
@@ -120,6 +120,6 @@ struct DataView: View {
     
 }
 
-#Preview("Disconnected") {
+#Preview("Connecting") {
     DataView(bleManager: MockBLEManager(isConnected: false), getStarted: true)
 }

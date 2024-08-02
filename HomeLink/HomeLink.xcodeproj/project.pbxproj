@@ -19,17 +19,31 @@
 		BF1B00522C220F450035A717 /* Bluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B00512C220F450035A717 /* Bluetooth.swift */; };
 		BF3050E52C2F6E3600E5AAC3 /* WatchHomeLinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3050E42C2F6E3600E5AAC3 /* WatchHomeLinkApp.swift */; };
 		BF3050E72C2F6E3600E5AAC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3050E62C2F6E3600E5AAC3 /* ContentView.swift */; };
-		BF3050E92C2F6E3700E5AAC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3050E82C2F6E3700E5AAC3 /* Assets.xcassets */; };
 		BF3050EC2C2F6E3700E5AAC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3050EB2C2F6E3700E5AAC3 /* Preview Assets.xcassets */; };
 		BF3050F62C2F6E3700E5AAC3 /* WatchHomeLink_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3050F52C2F6E3700E5AAC3 /* WatchHomeLink_Watch_AppTests.swift */; };
 		BF3051002C2F6E3700E5AAC3 /* WatchHomeLink_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3050FF2C2F6E3700E5AAC3 /* WatchHomeLink_Watch_AppUITests.swift */; };
 		BF3051022C2F6E3700E5AAC3 /* WatchHomeLink_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3051012C2F6E3700E5AAC3 /* WatchHomeLink_Watch_AppUITestsLaunchTests.swift */; };
 		BF3051052C2F6E3700E5AAC3 /* WatchHomeLink Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BF3050E22C2F6E3600E5AAC3 /* WatchHomeLink Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BF3051122C325A2D00E5AAC3 /* LauncherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3051112C325A2D00E5AAC3 /* LauncherView.swift */; };
+		BF3051132C325B2400E5AAC3 /* Sensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF153FA82C277753006ADBCE /* Sensor.swift */; };
+		BF3051142C325B2400E5AAC3 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8E0A652C222300001E9AF7 /* LoaderView.swift */; };
+		BF3051182C325B2400E5AAC3 /* SignalStrengthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF153FAA2C279DA6006ADBCE /* SignalStrengthView.swift */; };
+		BF30511A2C325C1300E5AAC3 /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3051192C325C1300E5AAC3 /* DataView.swift */; };
 		BF50D5A22C2DDE67003D006F /* LauncherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50D5A12C2DDE67003D006F /* LauncherView.swift */; };
 		BF50D5A42C2DDEF4003D006F /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50D5A32C2DDEF4003D006F /* DataView.swift */; };
 		BF8E0A642C221CBA001E9AF7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8E0A632C221CBA001E9AF7 /* MainView.swift */; };
 		BF8E0A662C222300001E9AF7 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8E0A652C222300001E9AF7 /* LoaderView.swift */; };
 		BF8E0A692C276E80001E9AF7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8E0A682C276E80001E9AF7 /* CardView.swift */; };
+		BF93719F2C32607600488EED /* Watch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93719E2C32607600488EED /* Watch.swift */; };
+		BF9371A22C3261BE00488EED /* Watch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9371A12C3261BE00488EED /* Watch.swift */; };
+		BFC8C4542C329849002D3FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3050E82C2F6E3700E5AAC3 /* Assets.xcassets */; };
+		BFC8C4592C32B0BB002D3FE7 /* MockBluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8C4582C32B0BB002D3FE7 /* MockBluetooth.swift */; };
+		BFC8C45A2C32B0BB002D3FE7 /* MockBluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8C4582C32B0BB002D3FE7 /* MockBluetooth.swift */; };
+		BFC8C45C2C32B0FB002D3FE7 /* SImulatedBluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8C45B2C32B0FB002D3FE7 /* SImulatedBluetooth.swift */; };
+		BFC8C45D2C32B0FB002D3FE7 /* SImulatedBluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8C45B2C32B0FB002D3FE7 /* SImulatedBluetooth.swift */; };
+		BFD381F62C5BC3B300701A20 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD381F52C5BC3B300701A20 /* CardView.swift */; };
+		BFF10A662C5BC8D900792720 /* SignalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF10A652C5BC8D900792720 /* SignalView.swift */; };
+		BFF10A682C5BCCE100792720 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF10A672C5BCCE100792720 /* TitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,11 +122,21 @@
 		BF3050FB2C2F6E3700E5AAC3 /* WatchHomeLink Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchHomeLink Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3050FF2C2F6E3700E5AAC3 /* WatchHomeLink_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchHomeLink_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		BF3051012C2F6E3700E5AAC3 /* WatchHomeLink_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchHomeLink_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF3051112C325A2D00E5AAC3 /* LauncherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauncherView.swift; sourceTree = "<group>"; };
+		BF3051192C325C1300E5AAC3 /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
 		BF50D5A12C2DDE67003D006F /* LauncherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauncherView.swift; sourceTree = "<group>"; };
 		BF50D5A32C2DDEF4003D006F /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
 		BF8E0A632C221CBA001E9AF7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		BF8E0A652C222300001E9AF7 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
 		BF8E0A682C276E80001E9AF7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		BF93719E2C32607600488EED /* Watch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watch.swift; sourceTree = "<group>"; };
+		BF9371A12C3261BE00488EED /* Watch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watch.swift; sourceTree = "<group>"; };
+		BFC8C4522C328B3B002D3FE7 /* WatchHomeLink-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "WatchHomeLink-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		BFC8C4582C32B0BB002D3FE7 /* MockBluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBluetooth.swift; sourceTree = "<group>"; };
+		BFC8C45B2C32B0FB002D3FE7 /* SImulatedBluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SImulatedBluetooth.swift; sourceTree = "<group>"; };
+		BFD381F52C5BC3B300701A20 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		BFF10A652C5BC8D900792720 /* SignalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalView.swift; sourceTree = "<group>"; };
+		BFF10A672C5BCCE100792720 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +262,9 @@
 			isa = PBXGroup;
 			children = (
 				BF1B00512C220F450035A717 /* Bluetooth.swift */,
+				BF93719E2C32607600488EED /* Watch.swift */,
+				BFC8C4582C32B0BB002D3FE7 /* MockBluetooth.swift */,
+				BFC8C45B2C32B0FB002D3FE7 /* SImulatedBluetooth.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -245,6 +272,9 @@
 		BF3050E32C2F6E3600E5AAC3 /* WatchHomeLink Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				BFC8C4522C328B3B002D3FE7 /* WatchHomeLink-Watch-App-Info.plist */,
+				BF9371A02C3261B200488EED /* Managers */,
+				BF3051102C325A1B00E5AAC3 /* Views */,
 				BF3050E42C2F6E3600E5AAC3 /* WatchHomeLinkApp.swift */,
 				BF3050E62C2F6E3600E5AAC3 /* ContentView.swift */,
 				BF3050E82C2F6E3700E5AAC3 /* Assets.xcassets */,
@@ -278,6 +308,18 @@
 			path = "WatchHomeLink Watch AppUITests";
 			sourceTree = "<group>";
 		};
+		BF3051102C325A1B00E5AAC3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF3051112C325A2D00E5AAC3 /* LauncherView.swift */,
+				BF3051192C325C1300E5AAC3 /* DataView.swift */,
+				BFD381F52C5BC3B300701A20 /* CardView.swift */,
+				BFF10A652C5BC8D900792720 /* SignalView.swift */,
+				BFF10A672C5BCCE100792720 /* TitleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		BF8E0A672C276E70001E9AF7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -289,6 +331,14 @@
 				BF50D5A32C2DDEF4003D006F /* DataView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		BF9371A02C3261B200488EED /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				BF9371A12C3261BE00488EED /* Watch.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -487,8 +537,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC8C4542C329849002D3FE7 /* Assets.xcassets in Resources */,
 				BF3050EC2C2F6E3700E5AAC3 /* Preview Assets.xcassets in Resources */,
-				BF3050E92C2F6E3700E5AAC3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +565,8 @@
 			files = (
 				BF1B00292C220AFE0035A717 /* ContentView.swift in Sources */,
 				BF8E0A642C221CBA001E9AF7 /* MainView.swift in Sources */,
+				BFC8C45C2C32B0FB002D3FE7 /* SImulatedBluetooth.swift in Sources */,
+				BF93719F2C32607600488EED /* Watch.swift in Sources */,
 				BF50D5A42C2DDEF4003D006F /* DataView.swift in Sources */,
 				BF8E0A662C222300001E9AF7 /* LoaderView.swift in Sources */,
 				BF153FAB2C279DA6006ADBCE /* SignalStrengthView.swift in Sources */,
@@ -522,6 +574,7 @@
 				BF8E0A692C276E80001E9AF7 /* CardView.swift in Sources */,
 				BF1B00272C220AFE0035A717 /* HomeLinkApp.swift in Sources */,
 				BF153FA92C277753006ADBCE /* Sensor.swift in Sources */,
+				BFC8C4592C32B0BB002D3FE7 /* MockBluetooth.swift in Sources */,
 				BF50D5A22C2DDE67003D006F /* LauncherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -548,7 +601,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF3050E72C2F6E3600E5AAC3 /* ContentView.swift in Sources */,
+				BFC8C45D2C32B0FB002D3FE7 /* SImulatedBluetooth.swift in Sources */,
+				BFC8C45A2C32B0BB002D3FE7 /* MockBluetooth.swift in Sources */,
+				BF3051132C325B2400E5AAC3 /* Sensor.swift in Sources */,
+				BFF10A662C5BC8D900792720 /* SignalView.swift in Sources */,
+				BF3051142C325B2400E5AAC3 /* LoaderView.swift in Sources */,
+				BF3051182C325B2400E5AAC3 /* SignalStrengthView.swift in Sources */,
 				BF3050E52C2F6E3600E5AAC3 /* WatchHomeLinkApp.swift in Sources */,
+				BF30511A2C325C1300E5AAC3 /* DataView.swift in Sources */,
+				BF9371A22C3261BE00488EED /* Watch.swift in Sources */,
+				BFD381F62C5BC3B300701A20 /* CardView.swift in Sources */,
+				BFF10A682C5BCCE100792720 /* TitleView.swift in Sources */,
+				BF3051122C325A2D00E5AAC3 /* LauncherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,6 +724,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
 			};
 			name = Debug;
 		};
@@ -716,6 +781,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
 			};
 			name = Release;
 		};
@@ -731,6 +797,7 @@
 				DEVELOPMENT_TEAM = 4QN838772C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomeLink/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Arduino HomeLink";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to connect to Arduino BLE devices";
@@ -766,6 +833,7 @@
 				DEVELOPMENT_TEAM = 4QN838772C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomeLink/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Arduino HomeLink";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to connect to Arduino BLE devices";
@@ -876,6 +944,7 @@
 				DEVELOPMENT_TEAM = 4QN838772C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WatchHomeLink-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = WatchHomeLink;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.joshuafigueroa.HomeLink;
@@ -906,6 +975,7 @@
 				DEVELOPMENT_TEAM = 4QN838772C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WatchHomeLink-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = WatchHomeLink;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.joshuafigueroa.HomeLink;
