@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         #if targetEnvironment(simulator)
-            MainView(getStarted: $getStarted, bleManager: SimulatedBLEManager())
+            MainView(getStarted: $getStarted, bleManager: MockBLEManager(isConnected: true))
         #else
             MainView(getStarted: $getStarted, bleManager: BLEManager.shared)
         #endif
