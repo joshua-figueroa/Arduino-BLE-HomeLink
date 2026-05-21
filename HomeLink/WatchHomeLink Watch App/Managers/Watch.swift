@@ -39,7 +39,7 @@ class PhoneSessionManager: NSObject, WCSessionDelegate, ObservableObject {
     }
 
     func sessionReachabilityDidChange(_ session: WCSession) {
-        print("Session State: \(session.isReachable)")
+        print("Session State: \(WCSession.default.isReachable)")
         DispatchQueue.main.async {
             self.sessionActive = session.isReachable
         }

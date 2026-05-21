@@ -73,7 +73,10 @@ class WatchSessionManager: NSObject, WCSessionDelegate {
     }
 
     func sessionDidDeactivate(_ session: WCSession) {
-        // Handle session deactivation
+        print("Session did deactivate")
+        DispatchQueue.main.async {
+            self.checkConnection(isArduinoConnected: false)
+        }
         session.activate()
     }
 
