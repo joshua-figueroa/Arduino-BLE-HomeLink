@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF080ACE2FBFCD1900923E66 /* Bluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF080ACD2FBFCD1900923E66 /* Bluetooth.swift */; };
 		BF153FA92C277753006ADBCE /* Sensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF153FA82C277753006ADBCE /* Sensor.swift */; };
 		BF153FAB2C279DA6006ADBCE /* SignalStrengthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF153FAA2C279DA6006ADBCE /* SignalStrengthView.swift */; };
 		BF1B00272C220AFE0035A717 /* HomeLinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B00262C220AFE0035A717 /* HomeLinkApp.swift */; };
@@ -16,7 +17,6 @@
 		BF1B00382C220AFF0035A717 /* HomeLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B00372C220AFF0035A717 /* HomeLinkTests.swift */; };
 		BF1B00422C220AFF0035A717 /* HomeLinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B00412C220AFF0035A717 /* HomeLinkUITests.swift */; };
 		BF1B00442C220AFF0035A717 /* HomeLinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B00432C220AFF0035A717 /* HomeLinkUITestsLaunchTests.swift */; };
-		BF1B00522C220F450035A717 /* Bluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B00512C220F450035A717 /* Bluetooth.swift */; };
 		BF3050E52C2F6E3600E5AAC3 /* WatchHomeLinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3050E42C2F6E3600E5AAC3 /* WatchHomeLinkApp.swift */; };
 		BF3050E72C2F6E3600E5AAC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3050E62C2F6E3600E5AAC3 /* ContentView.swift */; };
 		BF3050EC2C2F6E3700E5AAC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3050EB2C2F6E3700E5AAC3 /* Preview Assets.xcassets */; };
@@ -99,6 +99,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BF080ACD2FBFCD1900923E66 /* Bluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth.swift; sourceTree = "<group>"; };
 		BF153FA82C277753006ADBCE /* Sensor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sensor.swift; sourceTree = "<group>"; };
 		BF153FAA2C279DA6006ADBCE /* SignalStrengthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalStrengthView.swift; sourceTree = "<group>"; };
 		BF1B00232C220AFE0035A717 /* HomeLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,7 +112,6 @@
 		BF1B003D2C220AFF0035A717 /* HomeLinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeLinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1B00412C220AFF0035A717 /* HomeLinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLinkUITests.swift; sourceTree = "<group>"; };
 		BF1B00432C220AFF0035A717 /* HomeLinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		BF1B00512C220F450035A717 /* Bluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Bluetooth.swift; path = ../../../../Swift/Bluetooth.swift; sourceTree = "<group>"; };
 		BF3050E22C2F6E3600E5AAC3 /* WatchHomeLink Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchHomeLink Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3050E42C2F6E3600E5AAC3 /* WatchHomeLinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchHomeLinkApp.swift; sourceTree = "<group>"; };
 		BF3050E62C2F6E3600E5AAC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -261,7 +261,7 @@
 		BF1B00502C220F310035A717 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				BF1B00512C220F450035A717 /* Bluetooth.swift */,
+				BF080ACD2FBFCD1900923E66 /* Bluetooth.swift */,
 				BF93719E2C32607600488EED /* Watch.swift */,
 				BFC8C4582C32B0BB002D3FE7 /* MockBluetooth.swift */,
 				BFC8C45B2C32B0FB002D3FE7 /* SImulatedBluetooth.swift */,
@@ -569,8 +569,8 @@
 				BF93719F2C32607600488EED /* Watch.swift in Sources */,
 				BF50D5A42C2DDEF4003D006F /* DataView.swift in Sources */,
 				BF8E0A662C222300001E9AF7 /* LoaderView.swift in Sources */,
+				BF080ACE2FBFCD1900923E66 /* Bluetooth.swift in Sources */,
 				BF153FAB2C279DA6006ADBCE /* SignalStrengthView.swift in Sources */,
-				BF1B00522C220F450035A717 /* Bluetooth.swift in Sources */,
 				BF8E0A692C276E80001E9AF7 /* CardView.swift in Sources */,
 				BF1B00272C220AFE0035A717 /* HomeLinkApp.swift in Sources */,
 				BF153FA92C277753006ADBCE /* Sensor.swift in Sources */,
